@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Node / TS
+typescript/node_modules/
+typescript/dist/
+
+# Python
+python/.venv/
+python/.pytest_cache/
+python/dist/
+python/build/
+python/*.egg-info/
+
+# PHP
+php/vendor/
+
+# Rust
+rust/target/
+
+# Go
+go/bin/

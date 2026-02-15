@@ -1,0 +1,11 @@
+[package]
+name = "fabraic-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Rust SDK for fabraic public APIs"
+license = "MIT"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json", "rustls-tls"] }
+serde_json = "1.0"
+url = "2.5"
